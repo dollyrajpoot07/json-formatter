@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JSON Formatter Utility
 
-## Getting Started
+This is a powerful and user-friendly JSON Formatter built using React and Next.js. It allows developers to format, validate, and manage JSON data with ease.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- ✅ Format raw JSON with proper indentation (Beautify)
+- 📎 Copy formatted JSON to clipboard
+- 🚫 Error detection for invalid JSON
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧠 How It Works
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- User pastes or types raw JSON.
+- On format or paste, it parses and formats it using `JSON.parse` & `JSON.stringify`.
+- Allows switching between readable and compact form.
+- Result can be copied or downloaded easily.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<img width="1561" alt="Screenshot 2025-06-25 at 1 06 02 AM" src="https://github.com/user-attachments/assets/e3576a25-97fd-4d47-a65e-76fa40274312" />
+<img width="1558" alt="Screenshot 2025-06-25 at 1 05 51 AM" src="https://github.com/user-attachments/assets/c78685ba-8b77-4633-8815-14e5ad9a4215" />
+<img width="1559" alt="Screenshot 2025-06-25 at 1 05 22 AM" src="https://github.com/user-attachments/assets/96163b67-dd4e-41a0-b329-04dc620dd16e" />
